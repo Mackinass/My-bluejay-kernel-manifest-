@@ -1,0 +1,56 @@
+[core]
+	repositoryFormatVersion = 1
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://android.googlesource.com/kernel/manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	partialclonefilter = blob:none
+[manifest]
+	platform = auto
+[repo]
+	partialclone = true
+	clonefilter = blob:none
+	depth = 1
+	existingprojectcount = 80
+	newprojectcount = 0
+[extensions]
+	preciousObjects = true
+	partialclone = origin
+[branch "default"]
+	remote = origin
+	merge = refs/heads/android-gs-bluejay-6.1-android16-dp
+[repo "syncstate.main"]
+	synctime = 2024-12-27T04:08:54.541064+00:00
+	version = 1
+[repo "syncstate.sys"]
+	argv = ['/data/data/com.termux/files/home/WORK_DIRECTORY/aosp/.repo/repo/main.py', '--repo-dir=/data/data/com.termux/files/home/WORK_DIRECTORY/aosp/.repo', '--wrapper-version=2.50', '--wrapper-path=/root/.bin/repo', '--', 'sync']
+[repo "syncstate.options"]
+	jobs = 4
+	outermanifest = true
+	jobsnetwork = 4
+	jobscheckout = 4
+	localonly = true
+	mpupdate = true
+	currentbranchonly = true
+	clonebundle = false
+	retryfetches = 0
+	prune = true
+	repoverify = true
+	quiet = false
+	verbose = false
+[repo "syncstate.remote.origin"]
+	url = https://android.googlesource.com/kernel/manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	partialclonefilter = blob:none
+[repo "syncstate.repo"]
+	partialclone = true
+	clonefilter = blob:none
+	depth = 1
+	existingprojectcount = 80
+	newprojectcount = 0
+[repo "syncstate.branch.default"]
+	remote = origin
+	merge = refs/heads/android-gs-bluejay-6.1-android16-dp

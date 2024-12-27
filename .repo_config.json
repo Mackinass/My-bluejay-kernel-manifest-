@@ -1,0 +1,131 @@
+{
+  "core.repositoryformatversion": [
+    "1"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.origin.url": [
+    "https://android.googlesource.com/kernel/manifest"
+  ],
+  "remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ],
+  "remote.origin.partialclonefilter": [
+    "blob:none"
+  ],
+  "manifest.platform": [
+    "auto"
+  ],
+  "repo.partialclone": [
+    "true"
+  ],
+  "repo.clonefilter": [
+    "blob:none"
+  ],
+  "repo.depth": [
+    "1"
+  ],
+  "repo.existingprojectcount": [
+    "80"
+  ],
+  "repo.newprojectcount": [
+    "0"
+  ],
+  "extensions.preciousobjects": [
+    "true"
+  ],
+  "extensions.partialclone": [
+    "origin"
+  ],
+  "branch.default.remote": [
+    "origin"
+  ],
+  "branch.default.merge": [
+    "refs/heads/android-gs-bluejay-6.1-android16-dp"
+  ],
+  "repo.syncstate.main.synctime": [
+    "2024-12-27T03:22:49.263634+00:00"
+  ],
+  "repo.syncstate.main.version": [
+    "1"
+  ],
+  "repo.syncstate.sys.argv": [
+    "['/data/data/com.termux/files/home/WORK_DIRECTORY/aosp/.repo/repo/main.py', '--repo-dir=/data/data/com.termux/files/home/WORK_DIRECTORY/aosp/.repo', '--wrapper-version=2.50', '--wrapper-path=/root/.bin/repo', '--', 'sync']"
+  ],
+  "repo.syncstate.options.jobs": [
+    "4"
+  ],
+  "repo.syncstate.options.outermanifest": [
+    "true"
+  ],
+  "repo.syncstate.options.jobsnetwork": [
+    "4"
+  ],
+  "repo.syncstate.options.jobscheckout": [
+    "4"
+  ],
+  "repo.syncstate.options.localonly": [
+    "true"
+  ],
+  "repo.syncstate.options.mpupdate": [
+    "true"
+  ],
+  "repo.syncstate.options.currentbranchonly": [
+    "true"
+  ],
+  "repo.syncstate.options.clonebundle": [
+    "false"
+  ],
+  "repo.syncstate.options.retryfetches": [
+    "0"
+  ],
+  "repo.syncstate.options.prune": [
+    "true"
+  ],
+  "repo.syncstate.options.repoverify": [
+    "true"
+  ],
+  "repo.syncstate.options.quiet": [
+    "false"
+  ],
+  "repo.syncstate.options.verbose": [
+    "false"
+  ],
+  "repo.syncstate.remote.origin.url": [
+    "https://android.googlesource.com/kernel/manifest"
+  ],
+  "repo.syncstate.remote.origin.fetch": [
+    "+refs/heads/*:refs/remotes/origin/*"
+  ],
+  "repo.syncstate.remote.origin.partialclonefilter": [
+    "blob:none"
+  ],
+  "repo.syncstate.repo.partialclone": [
+    "true"
+  ],
+  "repo.syncstate.repo.clonefilter": [
+    "blob:none"
+  ],
+  "repo.syncstate.repo.depth": [
+    "1"
+  ],
+  "repo.syncstate.repo.existingprojectcount": [
+    "80"
+  ],
+  "repo.syncstate.repo.newprojectcount": [
+    "0"
+  ],
+  "repo.syncstate.branch.default.remote": [
+    "origin"
+  ],
+  "repo.syncstate.branch.default.merge": [
+    "refs/heads/android-gs-bluejay-6.1-android16-dp"
+  ]
+}
